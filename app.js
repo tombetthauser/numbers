@@ -74,7 +74,7 @@ function randPrint(){
 	var x = Math.random();
 	if (x <= .01){
 		document.getElementById("container").innerHTML = "";
-		initPrintCount = Math.round(Math.random() * 750) + 750;
+		initPrintCount = Math.round(Math.random() * 1500) + 1500;
 		for(i=0;i<initPrintCount;i++){
 			initPrint();
 		}
