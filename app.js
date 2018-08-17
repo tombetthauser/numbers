@@ -1,7 +1,23 @@
 var timeVar = 100;
+var timeImg = 100;
 var container = document.getElementById("container");
+var imageOne = document.getElementById("image");
+var body = document.getElementById("body");
+var baseSet = ""
+var initPrintCount = Math.round(Math.random() * 200) + 200;
+var beep = new Audio('beep2.wav');
+var resetCounter = 0
+
+
+for(i=0;i<initPrintCount;i++){
+	initPrint();
+}
+
+baseSet = (document.getElementById("container").innerHTML); 
 
 codeHole();
+imageHide();
+
 
 function codeHole(){
 	setTimeout(function(){
@@ -11,8 +27,13 @@ function codeHole(){
 }
 
 function randTimeOne(){
-	var randTimeTwo = Math.random() * timeVar;
-	return randTimeTwo;
+	var t = Math.random() * timeVar;
+	return t;
+}
+
+function randTimeTwo(){
+	var t = Math.random() * timeImg;
+	return t;
 }
 
 function randPrint(){
@@ -42,16 +63,104 @@ function randPrint(){
 	} else if (x === 0){
 		container.insertAdjacentHTML("afterbegin", "0̮̱");		
 	}
-	// var x = Math.round(Math.random() * 10);
-	// if (x <= .01) {
-	// 	container.insertAdjacentHTML("afterbegin", "<br>");
-	// }
+	var x = Math.random();
+	if (x <= .005){
+		document.getElementById("container").innerHTML = baseSet;
+	}
+	flipSet();
 }
 
+function initPrint(){
+	var x = Math.round(Math.random() * 11);
+	if (x === 11){
+		container.insertAdjacentHTML("afterbegin", "|");		
+	} else if (x === 10){
+		container.insertAdjacentHTML("afterbegin", "/");		
+	} else if (x === 9){
+		container.insertAdjacentHTML("afterbegin", "\\");		
+	} else if (x === 8){
+		container.insertAdjacentHTML("afterbegin", "%");		
+	} else if (x === 7){
+		container.insertAdjacentHTML("afterbegin", ">");		
+	} else if (x === 6){
+		container.insertAdjacentHTML("afterbegin", "<");		
+	} else if (x === 5){
+		container.insertAdjacentHTML("afterbegin", "&");		
+	} else if (x === 4){
+		container.insertAdjacentHTML("afterbegin", "$");		
+	} else if (x === 3){
+		container.insertAdjacentHTML("afterbegin", "̝7͓͉̥̙͉̮̩");		
+	} else if (x === 2){
+		container.insertAdjacentHTML("afterbegin", "͟8̺̗̰̰͕̟");		
+	} else if (x === 1){
+		container.insertAdjacentHTML("afterbegin", "9҉");		
+	} else if (x === 0){
+		container.insertAdjacentHTML("afterbegin", "0̮̱");		
+	}
+}
 
-// T̝̳̝͙͍̣o͔̟̟͉̭͚ ̵̰͕̹̦͕͔̟i̷̝͈̯ǹ͚̼̗̬̠̖v̠͙̲͙̟̰o͎ḳ̮e̗͈̱̬͟ ̬͎̝t̘͈̜̹̫̦͞h̢͚͙͎̲͓e̶̙͙̲ ̖̲̬̫̙̠̹́h̵i͉͎͓̼̱v̜̙͈̰e͈̯͉̗̪-̰̗̟̳m͚̹͝i͔͚̦̹̳n͖̜̺̻d͕͕̖̯̲͎̯ ͟r̜̣̤̟̘e̩̩͈̬̟̠͙p̶͇̻̤̪̹r̭̦̹e͓̤s̬̼͕͉̜̘e͏̱̦n͎t͏̦͖͉̮̺̟i̙͠n͕̭̰̭͉͖͞g̩͔̖̤͕̤̭͜ c͙̠̰̟̰h̛̙̱͍͙a̷͙͚̜̹o̦̦͔ş͓̠̺͙.
-// ̬͇I̠n̖̰͈̹̣v̦̜o̗̲ķ͙͇͕̯̘i̘͇ͅn̨̟g͇͚̖̀ ̭t͏͎̼he̶̙̖͕̖̞̤̜ ͙͓̗͈͈̻̭͡f̧̬̺̠͎̙̳̳e̹͉̤̹̻͍̯e̺̥͕͙͕̜l̝̫͖i̦͈̲̮̣̖͠ng̬̹̺̘̹͚̀ ̣́o̶͎f̡͎͉͇ ͇̫͎̭͖̩̝́c̝̹̜̼̟͜ͅha̻͓͔̗ͅo͠s̥͕.͈̠͔̯̝
-// ̖̘̘̞͠W̴̩i̞̳̱̺t̮͢h̷ ̬̤o̺͓̮̦u̙t ͉̻̜͟o̪̜̻͔̮͚r͓͔͈̣̺̯̻d̩̬͎̪͞e̼r̸̩̹̞̞̦.̷̬͈͎̦̰̦̖
-// ̱̖̼͕̺T̥͙he̖͓̹̟̜͞ N͙͔͍̤̮̼̗͠e͙z̭p̣̜̝̹͢ͅe̴͖̰̖̞̹̗̩r̝͚̖d͍̼i̳̫̝a̼̘̹̜̼͓̲n̜̖̥̹̰̻̙ ̥̙h̳̬i̙̫͎͉͖͓͍͟v̠̥̫̝̬̰e̺̳͢-͢m̫̱̼̙̺̩̼i̢̲̣̞n̘͓͕͇̞̲̩͝d̴̖̯̫ ̡͉o̦͜f͉̟̬͟ ͕̻̰̰͚̼̀c̡̩͎͉̝͈h̥͖̗͈̺a̷̼̟͇͉o̖̰̠̺̙͈s̱͙.̨̱̟̫̳̯̝̺ ̰͙̲̦͍̻̖Z͓͠a̧̭l̴g̶͖̤͕̱͔o̖͍̭̹̖.҉͙͉̰
-// ̙̙̦̜̮͡H̲͇̼e̺͓͟ ̦̩w̷h̬͍̯͝o̞̪̭ͅ ͘W̻a͈͘i̴͔t͕̖̮͜ͅs͢ ̺̀B̲̻̖͚͖͙̱e̝̬͙̟̯h̦͉̦͘i̞͉̖̫̰n̶̠̯d̟̩̱ ̸T̢͉͕̠̹ḥ͢e̦̠ ̞̖̬̹̰͙W̱̩̣̦̯̮̫a̱̙͎͔̪̙̰ḷ̵l̴͎͖̩.
-// ̼Z̝͕̩A̬͎̦̯Ļ͖̣̬̖G̤O̱̼̗̬̙͠!̨͚̗̰͍̲̙
+function play() {
+    var audio = document.getElementById('audio');
+    // beep.play();
+    if (audio.paused) {
+        audio.play();
+    }
+	initPrintCount = Math.round(Math.random() * 200);
+	for(i=0;i<initPrintCount;i++){
+		initPrint();
+	}
+	x = Math.random();
+	if (x <= .5){
+		document.getElementById("container").innerHTML = ""; 
+		initPrintCount = Math.round(Math.random() * 200) + 200;
+		for(i=0;i<initPrintCount;i++){
+			initPrint();
+		}
+	}
+	resetCounter += Math.round(Math.random() * 5)
+	if (resetCounter >= 20){
+		document.getElementById("container").innerHTML = "";
+		initPrintCount = Math.round(Math.random() * 200) + 200;
+		for(i=0;i<initPrintCount;i++){
+			initPrint();
+		}
+		resetCounter = 0;
+	}
+}
+
+function imgDis() {
+	document.getElementById("image").src="";
+}
+
+function imageHide(){
+	// document.getElementById('image').style.marginLeft = "10px";
+	setTimeout(function(){
+		document.getElementById('image').style.marginLeft = (Math.random() * 10) + 10 + "px";
+		// document.getElementById("image").src="";
+		// document.getElementById("image").src="";
+		imageHide();
+	}, randTimeTwo());
+}
+
+function flipSet() {
+	var t = Math.random()*500;
+	var x = Math.round(Math.random()*1000);
+	if (x === 3){
+		image.setAttribute("class", "flip");
+		setInterval(function(){
+			image.setAttribute("class", "");
+		}, t);
+	} 
+	else if (x === 2){
+		container.setAttribute("class", "flip");
+		setInterval(function(){
+			container.setAttribute("class", "");
+		}, t);
+	} 
+	else if (x === 1){
+		body.setAttribute("class", "flip");
+		setInterval(function(){
+			body.setAttribute("class", "");
+		}, t);
+	}
+}
