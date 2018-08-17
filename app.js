@@ -138,6 +138,9 @@ function play() {
 		}
 		resetCounter = 0;
 	}
+   var elem = document.getElementById("body");
+   req = elem.requestFullScreen || elem.webkitRequestFullScreen || elem.mozRequestFullScreen;
+   req.call(elem);	
 }
 
 function imgDis() {
