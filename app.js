@@ -72,7 +72,7 @@ function randPrint(){
 		container.insertAdjacentHTML("afterbegin", "0̮̱");		
 	}
 	var x = Math.random();
-	if (x <= .05){
+	if (x <= .01){
 		document.getElementById("container").innerHTML = "";
 		initPrintCount = Math.round(Math.random() * 750) + 750;
 		for(i=0;i<initPrintCount;i++){
