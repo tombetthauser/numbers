@@ -18,6 +18,14 @@ baseSet = (document.getElementById("container").innerHTML);
 codeHole();
 imageHide();
 
+window.onkeyup = function(e) {
+   var key = e.keyCode ? e.keyCode : e.which;
+   if (key == 13) {
+       var elem = document.getElementById("body");
+	   req = elem.requestFullScreen || elem.webkitRequestFullScreen || elem.mozRequestFullScreen;
+	   req.call(elem);	
+   }
+}
 
 function codeHole(){
 	setTimeout(function(){
@@ -64,8 +72,12 @@ function randPrint(){
 		container.insertAdjacentHTML("afterbegin", "0̮̱");		
 	}
 	var x = Math.random();
-	if (x <= .005){
-		document.getElementById("container").innerHTML = baseSet;
+	if (x <= .05){
+		document.getElementById("container").innerHTML = "";
+		initPrintCount = Math.round(Math.random() * 200) + 200;
+		for(i=0;i<initPrintCount;i++){
+			initPrint();
+		}
 	}
 	flipSet();
 }
