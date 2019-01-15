@@ -1,10 +1,12 @@
 var timeVar = 100;
 var timeImg = 100;
+var r1 = 25;
+var r2 = 10;
 var container = document.getElementById("container");
 var imageOne = document.getElementById("image");
 var body = document.getElementById("body");
 var baseSet = ""
-var initPrintCount = Math.round(Math.random() * 100) + 25;
+var initPrintCount = Math.round(Math.random() * r1) + r2;
 var beep = new Audio('beep2.wav');
 var resetCounter = 0
 
@@ -74,7 +76,7 @@ function randPrint(){
 	var x = Math.random();
 	if (x <= .01){
 		document.getElementById("container").innerHTML = "";
-		initPrintCount = Math.round(Math.random() * 1500) + 1500;
+		initPrintCount = Math.round(Math.random() * r1) + r2;
 		for(i=0;i<initPrintCount;i++){
 			initPrint();
 		}
@@ -117,14 +119,14 @@ function play() {
     if (audio.paused) {
         audio.play();
     }
-	initPrintCount = Math.round(Math.random() * 100);
+	initPrintCount = Math.round(Math.random() * r1);
 	for(i=0;i<initPrintCount;i++){
 		initPrint();
 	}
 	x = Math.random();
 	if (x <= .5){
 		document.getElementById("container").innerHTML = ""; 
-		initPrintCount = Math.round(Math.random() * 100) + 25;
+		initPrintCount = Math.round(Math.random() * r1) + r2;
 		for(i=0;i<initPrintCount;i++){
 			initPrint();
 		}
@@ -132,7 +134,7 @@ function play() {
 	resetCounter += Math.round(Math.random() * 5)
 	if (resetCounter >= 20){
 		document.getElementById("container").innerHTML = "";
-		initPrintCount = Math.round(Math.random() * 100) + 25;
+		initPrintCount = Math.round(Math.random() * r1) + r2;
 		for(i=0;i<initPrintCount;i++){
 			initPrint();
 		}
@@ -159,7 +161,7 @@ function imageHide(){
 
 function flipSet() {
 	var t = Math.random()*500;
-	var x = Math.round(Math.random()*1000);
+	var x = Math.round(Math.random()*250);
 	if (x === 3){
 		image.setAttribute("class", "flip");
 		setInterval(function(){
