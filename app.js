@@ -4,7 +4,7 @@ var container = document.getElementById("container");
 var imageOne = document.getElementById("image");
 var body = document.getElementById("body");
 var baseSet = ""
-var initPrintCount = Math.round(Math.random() * 200) + 200;
+var initPrintCount = Math.round(Math.random() * 100) + 50;
 var beep = new Audio('beep2.wav');
 var resetCounter = 0
 
@@ -47,29 +47,29 @@ function randTimeTwo(){
 function randPrint(){
 	var x = Math.round(Math.random() * 11);
 	if (x === 11){
-		container.insertAdjacentHTML("afterbegin", "̤c̫ḫ̳̘͖͇̘̩an̺̘̹͍͖̞g̼̜̭e̩͖̙̰̦s͖̙̼̹͉͞");		
+		container.insertAdjacentHTML("afterbegin", "c̷han̨g͠es ");		
 	} else if (x === 10){
-		container.insertAdjacentHTML("afterbegin", "e̱͔̥ͅṿ͚̘̲̮e̤̫̦̘͉̥͇ŗ̞̹͙̱̻͖y͙̱̬̠ͅt͈͈̰h̰̳͝ì̭̤n̵͙g");		
+		container.insertAdjacentHTML("afterbegin", "e̢ve̷ryt̛h͘inǵ ͡");		
 	} else if (x === 9){
-		container.insertAdjacentHTML("afterbegin", "m͕͓̘̥͕ạ͕̖͍̹̻̥̕y̭̳̫͎b͏̠͔̝e̺̺");		
+		container.insertAdjacentHTML("afterbegin", "m̕ayb̛e ̧");		
 	} else if (x === 8){
-		container.insertAdjacentHTML("afterbegin", "al̷̟̣̣̦͔̳͔l̳̬͖̖̹̝͈ ҉͕d̴͓̺͓̜̙e͚͓̖͎̘s̞̹̟̭̬͝į͎͓͖̰̭͍̘r̡̦̤̜̤̯̯̮e");		
+		container.insertAdjacentHTML("afterbegin", "a̴ll ́desire͟ ̴");		
 	} else if (x === 7){
-		container.insertAdjacentHTML("afterbegin", "d͚̻͢o͈̝̥̺̰̖n'͏̱̠̻t͕͔̩͖͇͢ͅ ͔k̻̱̝̮͓̝̫ṇ̯͖̩̦̳̳o̷̻͚̺̪̝w̵͇̣͓͓ ");		
+		container.insertAdjacentHTML("afterbegin", "don't͟ ̵k͡n̸o̡w͝");		
 	} else if (x === 6){
-		container.insertAdjacentHTML("afterbegin", "w̲̖̙̱͙̩̘a̳̥̺t̨ć̪ḩ̹̺_");		
+		container.insertAdjacentHTML("afterbegin", "w҉atçh͝ ͢");		
 	} else if (x === 5){
-		container.insertAdjacentHTML("afterbegin", "l̯o̷̖̼͖͇o̵̪k̢̜̜̦͔̗̘,");		
+		container.insertAdjacentHTML("afterbegin", "l̴o͟o҉k ҉");		
 	} else if (x === 4){
-		container.insertAdjacentHTML("afterbegin", "y̟̻̯̮o̴͖ú͍̮`");		
+		container.insertAdjacentHTML("afterbegin", "y̴ǫu ");		
 	} else if (x === 3){
-		container.insertAdjacentHTML("afterbegin", "I̫̗^");		
+		container.insertAdjacentHTML("afterbegin", "I͜ ̴");		
 	} else if (x === 2){
-		container.insertAdjacentHTML("afterbegin", "͟w̪̞̥̣̮e̹;");		
+		container.insertAdjacentHTML("afterbegin", "͟w̴e̡ ");		
 	} else if (x === 1){
-		container.insertAdjacentHTML("afterbegin", "u͎̥̹̰͉͚͠ǹ̻̤̳̜̯̗͙i͈͔̱̻͟v̷̻ȩr̤s̴̜͉̮̺͕a̻̱̰͇̩͡l҉̗");		
+		container.insertAdjacentHTML("afterbegin", "un̶i͏versa̶l̢ ̷");		
 	} else if (x === 0){
-		container.insertAdjacentHTML("afterbegin", "s̗̜̺̩e̻̠͇͔͇̕e͓͎̦̝͚k̸̤̮̣͉̬̣̹*");		
+		container.insertAdjacentHTML("afterbegin", "sèek͠e͢r ");		
 	}
 	var x = Math.random();
 	if (x <= .01){
@@ -85,29 +85,29 @@ function randPrint(){
 function initPrint(){
 	var x = Math.round(Math.random() * 11);
 	if (x === 11){
-		container.insertAdjacentHTML("afterbegin", "̤c̫ḫ̳̘͖͇̘̩an̺̘̹͍͖̞g̼̜̭e̩͖̙̰̦s͖̙̼̹͉͞");		
+		container.insertAdjacentHTML("afterbegin", "c̷han̨g͠es ");		
 	} else if (x === 10){
-		container.insertAdjacentHTML("afterbegin", "e̱͔̥ͅṿ͚̘̲̮e̤̫̦̘͉̥͇ŗ̞̹͙̱̻͖y͙̱̬̠ͅt͈͈̰h̰̳͝ì̭̤n̵͙g");		
+		container.insertAdjacentHTML("afterbegin", "e̢ve̷ryt̛h͘inǵ ͡");		
 	} else if (x === 9){
-		container.insertAdjacentHTML("afterbegin", "m͕͓̘̥͕ạ͕̖͍̹̻̥̕y̭̳̫͎b͏̠͔̝e̺̺");		
+		container.insertAdjacentHTML("afterbegin", "m̕ayb̛e ̧");		
 	} else if (x === 8){
-		container.insertAdjacentHTML("afterbegin", "al̷̟̣̣̦͔̳͔l̳̬͖̖̹̝͈ ҉͕d̴͓̺͓̜̙e͚͓̖͎̘s̞̹̟̭̬͝į͎͓͖̰̭͍̘r̡̦̤̜̤̯̯̮e");		
+		container.insertAdjacentHTML("afterbegin", "a̴ll ́desire͟ ̴");		
 	} else if (x === 7){
-		container.insertAdjacentHTML("afterbegin", "d͚̻͢o͈̝̥̺̰̖n'͏̱̠̻t͕͔̩͖͇͢ͅ ͔k̻̱̝̮͓̝̫ṇ̯͖̩̦̳̳o̷̻͚̺̪̝w̵͇̣͓͓ ");		
+		container.insertAdjacentHTML("afterbegin", "don't͟ ̵k͡n̸o̡w͝");		
 	} else if (x === 6){
-		container.insertAdjacentHTML("afterbegin", "w̲̖̙̱͙̩̘a̳̥̺t̨ć̪ḩ̹̺_");		
+		container.insertAdjacentHTML("afterbegin", "w҉atçh͝ ͢");		
 	} else if (x === 5){
-		container.insertAdjacentHTML("afterbegin", "l̯o̷̖̼͖͇o̵̪k̢̜̜̦͔̗̘,");		
+		container.insertAdjacentHTML("afterbegin", "l̴o͟o҉k ҉");		
 	} else if (x === 4){
-		container.insertAdjacentHTML("afterbegin", "y̟̻̯̮o̴͖ú͍̮`");		
+		container.insertAdjacentHTML("afterbegin", "y̴ǫu ");		
 	} else if (x === 3){
-		container.insertAdjacentHTML("afterbegin", "I̫̗^");		
+		container.insertAdjacentHTML("afterbegin", "I͜ ̴");		
 	} else if (x === 2){
-		container.insertAdjacentHTML("afterbegin", "͟w̪̞̥̣̮e̹;");		
+		container.insertAdjacentHTML("afterbegin", "͟w̴e̡ ");		
 	} else if (x === 1){
-		container.insertAdjacentHTML("afterbegin", "u͎̥̹̰͉͚͠ǹ̻̤̳̜̯̗͙i͈͔̱̻͟v̷̻ȩr̤s̴̜͉̮̺͕a̻̱̰͇̩͡l҉̗");		
+		container.insertAdjacentHTML("afterbegin", "un̶i͏versa̶l̢ ̷");		
 	} else if (x === 0){
-		container.insertAdjacentHTML("afterbegin", "s̗̜̺̩e̻̠͇͔͇̕e͓͎̦̝͚k̸̤̮̣͉̬̣̹*");		
+		container.insertAdjacentHTML("afterbegin", "sèek͠e͢r ");		
 	}
 }
 
