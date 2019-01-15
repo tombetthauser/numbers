@@ -4,7 +4,7 @@ var container = document.getElementById("container");
 var imageOne = document.getElementById("image");
 var body = document.getElementById("body");
 var baseSet = ""
-var initPrintCount = Math.round(Math.random() * 100) + 50;
+var initPrintCount = Math.round(Math.random() * 100) + 25;
 var beep = new Audio('beep2.wav');
 var resetCounter = 0
 
@@ -117,14 +117,14 @@ function play() {
     if (audio.paused) {
         audio.play();
     }
-	initPrintCount = Math.round(Math.random() * 200);
+	initPrintCount = Math.round(Math.random() * 100);
 	for(i=0;i<initPrintCount;i++){
 		initPrint();
 	}
 	x = Math.random();
 	if (x <= .5){
 		document.getElementById("container").innerHTML = ""; 
-		initPrintCount = Math.round(Math.random() * 200) + 200;
+		initPrintCount = Math.round(Math.random() * 100) + 25;
 		for(i=0;i<initPrintCount;i++){
 			initPrint();
 		}
@@ -132,7 +132,7 @@ function play() {
 	resetCounter += Math.round(Math.random() * 5)
 	if (resetCounter >= 20){
 		document.getElementById("container").innerHTML = "";
-		initPrintCount = Math.round(Math.random() * 200) + 200;
+		initPrintCount = Math.round(Math.random() * 100) + 25;
 		for(i=0;i<initPrintCount;i++){
 			initPrint();
 		}
