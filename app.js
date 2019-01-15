@@ -47,29 +47,29 @@ function randTimeTwo(){
 function randPrint(){
 	var x = Math.round(Math.random() * 11);
 	if (x === 11){
-		container.insertAdjacentHTML("afterbegin", "|");		
+		container.insertAdjacentHTML("afterbegin", "̤c̫ḫ̳̘͖͇̘̩an̺̘̹͍͖̞g̼̜̭e̩͖̙̰̦s͖̙̼̹͉͞");		
 	} else if (x === 10){
-		container.insertAdjacentHTML("afterbegin", "/");		
+		container.insertAdjacentHTML("afterbegin", "e̱͔̥ͅṿ͚̘̲̮e̤̫̦̘͉̥͇ŗ̞̹͙̱̻͖y͙̱̬̠ͅt͈͈̰h̰̳͝ì̭̤n̵͙g");		
 	} else if (x === 9){
-		container.insertAdjacentHTML("afterbegin", "\\");		
+		container.insertAdjacentHTML("afterbegin", "m͕͓̘̥͕ạ͕̖͍̹̻̥̕y̭̳̫͎b͏̠͔̝e̺̺");		
 	} else if (x === 8){
-		container.insertAdjacentHTML("afterbegin", "%");		
+		container.insertAdjacentHTML("afterbegin", "al̷̟̣̣̦͔̳͔l̳̬͖̖̹̝͈ ҉͕d̴͓̺͓̜̙e͚͓̖͎̘s̞̹̟̭̬͝į͎͓͖̰̭͍̘r̡̦̤̜̤̯̯̮e");		
 	} else if (x === 7){
-		container.insertAdjacentHTML("afterbegin", ">");		
+		container.insertAdjacentHTML("afterbegin", "d͚̻͢o͈̝̥̺̰̖n'͏̱̠̻t͕͔̩͖͇͢ͅ ͔k̻̱̝̮͓̝̫ṇ̯͖̩̦̳̳o̷̻͚̺̪̝w̵͇̣͓͓ ");		
 	} else if (x === 6){
-		container.insertAdjacentHTML("afterbegin", "<");		
+		container.insertAdjacentHTML("afterbegin", "w̲̖̙̱͙̩̘a̳̥̺t̨ć̪ḩ̹̺_");		
 	} else if (x === 5){
-		container.insertAdjacentHTML("afterbegin", "&");		
+		container.insertAdjacentHTML("afterbegin", "l̯o̷̖̼͖͇o̵̪k̢̜̜̦͔̗̘,");		
 	} else if (x === 4){
-		container.insertAdjacentHTML("afterbegin", "$");		
+		container.insertAdjacentHTML("afterbegin", "y̟̻̯̮o̴͖ú͍̮`");		
 	} else if (x === 3){
-		container.insertAdjacentHTML("afterbegin", "̝7͓͉̥̙͉̮̩");		
+		container.insertAdjacentHTML("afterbegin", "I̫̗^");		
 	} else if (x === 2){
-		container.insertAdjacentHTML("afterbegin", "͟8̺̗̰̰͕̟");		
+		container.insertAdjacentHTML("afterbegin", "͟w̪̞̥̣̮e̹;");		
 	} else if (x === 1){
-		container.insertAdjacentHTML("afterbegin", "9҉");		
+		container.insertAdjacentHTML("afterbegin", "u͎̥̹̰͉͚͠ǹ̻̤̳̜̯̗͙i͈͔̱̻͟v̷̻ȩr̤s̴̜͉̮̺͕a̻̱̰͇̩͡l҉̗");		
 	} else if (x === 0){
-		container.insertAdjacentHTML("afterbegin", "0̮̱");		
+		container.insertAdjacentHTML("afterbegin", "s̗̜̺̩e̻̠͇͔͇̕e͓͎̦̝͚k̸̤̮̣͉̬̣̹*");		
 	}
 	var x = Math.random();
 	if (x <= .01){
@@ -85,29 +85,29 @@ function randPrint(){
 function initPrint(){
 	var x = Math.round(Math.random() * 11);
 	if (x === 11){
-		container.insertAdjacentHTML("afterbegin", "|");		
+		container.insertAdjacentHTML("afterbegin", "̤c̫ḫ̳̘͖͇̘̩an̺̘̹͍͖̞g̼̜̭e̩͖̙̰̦s͖̙̼̹͉͞");		
 	} else if (x === 10){
-		container.insertAdjacentHTML("afterbegin", "/");		
+		container.insertAdjacentHTML("afterbegin", "e̱͔̥ͅṿ͚̘̲̮e̤̫̦̘͉̥͇ŗ̞̹͙̱̻͖y͙̱̬̠ͅt͈͈̰h̰̳͝ì̭̤n̵͙g");		
 	} else if (x === 9){
-		container.insertAdjacentHTML("afterbegin", "\\");		
+		container.insertAdjacentHTML("afterbegin", "m͕͓̘̥͕ạ͕̖͍̹̻̥̕y̭̳̫͎b͏̠͔̝e̺̺");		
 	} else if (x === 8){
-		container.insertAdjacentHTML("afterbegin", "%");		
+		container.insertAdjacentHTML("afterbegin", "al̷̟̣̣̦͔̳͔l̳̬͖̖̹̝͈ ҉͕d̴͓̺͓̜̙e͚͓̖͎̘s̞̹̟̭̬͝į͎͓͖̰̭͍̘r̡̦̤̜̤̯̯̮e");		
 	} else if (x === 7){
-		container.insertAdjacentHTML("afterbegin", ">");		
+		container.insertAdjacentHTML("afterbegin", "d͚̻͢o͈̝̥̺̰̖n'͏̱̠̻t͕͔̩͖͇͢ͅ ͔k̻̱̝̮͓̝̫ṇ̯͖̩̦̳̳o̷̻͚̺̪̝w̵͇̣͓͓ ");		
 	} else if (x === 6){
-		container.insertAdjacentHTML("afterbegin", "<");		
+		container.insertAdjacentHTML("afterbegin", "w̲̖̙̱͙̩̘a̳̥̺t̨ć̪ḩ̹̺_");		
 	} else if (x === 5){
-		container.insertAdjacentHTML("afterbegin", "&");		
+		container.insertAdjacentHTML("afterbegin", "l̯o̷̖̼͖͇o̵̪k̢̜̜̦͔̗̘,");		
 	} else if (x === 4){
-		container.insertAdjacentHTML("afterbegin", "$");		
+		container.insertAdjacentHTML("afterbegin", "y̟̻̯̮o̴͖ú͍̮`");		
 	} else if (x === 3){
-		container.insertAdjacentHTML("afterbegin", "̝7͓͉̥̙͉̮̩");		
+		container.insertAdjacentHTML("afterbegin", "I̫̗^");		
 	} else if (x === 2){
-		container.insertAdjacentHTML("afterbegin", "͟8̺̗̰̰͕̟");		
+		container.insertAdjacentHTML("afterbegin", "͟w̪̞̥̣̮e̹;");		
 	} else if (x === 1){
-		container.insertAdjacentHTML("afterbegin", "9҉");		
+		container.insertAdjacentHTML("afterbegin", "u͎̥̹̰͉͚͠ǹ̻̤̳̜̯̗͙i͈͔̱̻͟v̷̻ȩr̤s̴̜͉̮̺͕a̻̱̰͇̩͡l҉̗");		
 	} else if (x === 0){
-		container.insertAdjacentHTML("afterbegin", "0̮̱");		
+		container.insertAdjacentHTML("afterbegin", "s̗̜̺̩e̻̠͇͔͇̕e͓͎̦̝͚k̸̤̮̣͉̬̣̹*");		
 	}
 }
 
